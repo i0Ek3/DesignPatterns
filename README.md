@@ -51,7 +51,8 @@ You have to know something about design patterns.
 
 > 
 
-- [https://github.com/kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) Awesome!
+- [https://github.com/kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
+- [http://java-design-patterns.com/](http://java-design-patterns.com/) Awesome really~
 - [果冻想](https://www.jellythink.com/) To be honest, his articles of design patterns are much better, but now his personal site restoring these contents, so please wait a moment.
 - [Design Patterns Elements of Reusble Object-Oriented Software]()  A little bit of hard? As you know!
 - [图说设计模式]() 
