@@ -2,7 +2,10 @@
 
 You have to know something about design patterns.
 
-> Note: The source code based on C++.
+> Note: The source code based on C++. And picture from internet. 
+
+![DesignPatterns](https://github.com/i0Ek3/DesignPatterns/blob/master/images/DesignPatterns.png)
+
 
 
 ## Contents
