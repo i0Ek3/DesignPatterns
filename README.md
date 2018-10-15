@@ -50,10 +50,15 @@ These design patterns provide a way to hide the creation logic while creating th
 
 ### Factory Method
 
+In this pattern, the factory parent class is responsible for defining the public interface for creating product objects, while the factory subclass is responsible for generating specific product objects.
+
 ### Abstract Factory
+
+Provides an interface to create a series of related or interdependent objects without specifying their specific classes.
 
 ### Builder
 
+Separating the construction of a complex object from its representation allows the same build process to create different representations.
 
 
 ## Structural
