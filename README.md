@@ -2,10 +2,9 @@
 
 You have to know something about design patterns.
 
-> Note: The source code based on C++ and the class picture based on *Graphic Design Patterns*.  
+> Note: The source code based on C++ and the class diagram in [/class](https://github.com/i0Ek3/DesignPatterns/tree/master/class?1539571778256) from *Graphic Design Patterns*.  
 
 ![DesignPatterns](https://github.com/i0Ek3/DesignPatterns/blob/master/images/DesignPatterns.png)
-
 
 
 ## Contents
@@ -49,19 +48,32 @@ You have to know something about design patterns.
 
 These design patterns provide a way to hide the creation logic while creating the object, rather than instantiating the object directly with the new operator. This makes the program more flexible in determining which objects need to be created for a given instance.
 
+### Factory Method
+
+### Abstract Factory
+
+### Builder
+
+
+
 ## Structural
 
 These design patterns focus on the combination of classes and objects. The concept of inheritance is used to combine interfaces and define ways in which composite objects get new functionality.
+
+
+
 
 ## Behavioral
 
 These design patterns pay special attention to communication between objects.
 
 
+
+## Relationship
+
 Here is a relationship between design patterns, take it look.
 
 ![Relationship](https://github.com/i0Ek3/DesignPatterns/blob/master/images/the-relationship-between-design-patterns.png)
-
 
 
 ## Reference
