@@ -60,6 +60,11 @@ Provides an interface to create a series of related or interdependent objects wi
 
 Separating the construction of a complex object from its representation allows the same build process to create different representations.
 
+### Singleton 
+
+The singleton pattern ensures that a class has only one instance and instantiates itself and provides this instance to the entire system.
+
+
 
 ## Structural
 
