@@ -70,6 +70,9 @@ The singleton pattern ensures that a class has only one instance and instantiate
 
 These design patterns focus on the combination of classes and objects. The concept of inheritance is used to combine interfaces and define ways in which composite objects get new functionality.
 
+### Adapter
+
+Convert an interface to another interface that the client wants, and makes those classes that are not compatible with the interface work together.
 
 
 
