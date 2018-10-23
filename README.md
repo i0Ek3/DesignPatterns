@@ -74,6 +74,11 @@ These design patterns focus on the combination of classes and objects. The conce
 
 Convert an interface to another interface that the client wants, and makes those classes that are not compatible with the interface work together.
 
+### Bridge
+
+Separate the abstract part from its implementation so that they can all change independently.
+
+
 
 
 ## Behavioral
