@@ -78,7 +78,9 @@ Convert an interface to another interface that the client wants, and makes those
 
 Separate the abstract part from its implementation so that they can all change independently.
 
+### Decorator
 
+Dynamically add some additional responsibilities to an object.
 
 
 ## Behavioral
