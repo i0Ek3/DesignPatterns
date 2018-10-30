@@ -82,6 +82,11 @@ Separate the abstract part from its implementation so that they can all change i
 
 Dynamically add some additional responsibilities to an object.
 
+### Facade
+
+External communication with a subsystem must be done through a uniform look and feel object, providing a consistent interface for a set of interfaces in the subsystem.
+
+
 
 ## Behavioral
 
