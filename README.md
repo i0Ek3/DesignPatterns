@@ -86,6 +86,11 @@ Dynamically add some additional responsibilities to an object.
 
 External communication with a subsystem must be done through a uniform look and feel object, providing a consistent interface for a set of interfaces in the subsystem.
 
+### Flyweight
+
+Use sharing technology to support the reuse of a large number of fine-grained objects effectively. 
+
+
 
 
 ## Behavioral
