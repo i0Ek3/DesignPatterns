@@ -90,6 +90,10 @@ External communication with a subsystem must be done through a uniform look and 
 
 Use sharing technology to support the reuse of a large number of fine-grained objects effectively. 
 
+### Proxy
+
+Provide an agent to an object, and the proxy object controls the reference to the original object.
+
 
 
 
