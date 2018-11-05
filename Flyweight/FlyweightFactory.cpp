@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <iterator>
-#include <make_pair>
+#include <utility>
 #include "FlyweightFactory.h"
 #include "ConcreteFlyweight.h"
 
@@ -15,7 +15,7 @@ Flyweight::~Flyweight() {
 }
 
 Flyweight* FlyweightFactory::getFlyweight(std::string str) {
-    std::map<std::string, Flyweight>::iterator it = m_mpFlyweight.find(str);
+    std::map<std::string, Flyweight*>::iterator it = m_mpFlyweight.find(str);
     if (it == m_mpFlyweight.end()) {
         Flyweight * fw = new ConcreteFlyweight(str);
         m_mpFlyweight.insert(std::make_pair(str, fw));

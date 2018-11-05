@@ -94,6 +94,10 @@ Use sharing technology to support the reuse of a large number of fine-grained ob
 
 Provide an agent to an object, and the proxy object controls the reference to the original object.
 
+### Command
+
+Encapsulating a request as an object allows us to parameterize the client with different requests, and queue requests or log request logs, and support revocable operations.
+
 
 
 
