@@ -98,6 +98,9 @@ Provide an agent to an object, and the proxy object controls the reference to th
 
 Encapsulating a request as an object allows us to parameterize the client with different requests, and queue requests or log request logs, and support revocable operations.
 
+### Mediator
+
+A mediation object is used to encapsulate a series of object interactions. The mediator does not need to explicitly refer to each other, making the coupling loose, and can change the interaction between them independently.
 
 
 
