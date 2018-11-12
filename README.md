@@ -102,6 +102,10 @@ Encapsulating a request as an object allows us to parameterize the client with d
 
 A mediation object is used to encapsulate a series of object interactions. The mediator does not need to explicitly refer to each other, making the coupling loose, and can change the interaction between them independently.
 
+### Observer
+
+Defines a one-to-many dependency between objects, so that whenever an object's state changes, its associated dependent objects are notified and automatically updated.
+
 
 
 ## Behavioral
