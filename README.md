@@ -94,6 +94,12 @@ Use sharing technology to support the reuse of a large number of fine-grained ob
 
 Provide an agent to an object, and the proxy object controls the reference to the original object.
 
+
+
+## Behavioral
+
+These design patterns pay special attention to communication between objects.
+
 ### Command
 
 Encapsulating a request as an object allows us to parameterize the client with different requests, and queue requests or log request logs, and support revocable operations.
@@ -106,11 +112,9 @@ A mediation object is used to encapsulate a series of object interactions. The m
 
 Defines a one-to-many dependency between objects, so that whenever an object's state changes, its associated dependent objects are notified and automatically updated.
 
+### State
 
-
-## Behavioral
-
-These design patterns pay special attention to communication between objects.
+Allow an object to change its behavior when its internal state changes.
 
 
 
