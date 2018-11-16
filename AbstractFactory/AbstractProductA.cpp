@@ -1,16 +1,12 @@
-class AbstractProductA
-{
-public:
-        AbstractProductA();
-        virtual ~AbstractProductA();
-        virtual void use() = 0;
-};
+#include "AbstractProductA.h"
 
 AbstractProductA::AbstractProductA() {
-        // 
+            // 
+            //
 }
 
 AbstractProductA::~AbstractProductA() {
-        // 
+            // 
+            //
 }
 

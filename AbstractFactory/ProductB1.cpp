@@ -1,18 +1,14 @@
-class ProductB1
-{
-        ProductB1();
-        virtual ~ProductB1();
-        void eat();
-};
+#include "ProductB1.h"
+#include <iostream>
 
 ProductB1::ProductB1() {
-        // 
+        //
 }
 
 ProductB1::~ProductB1() {
-        // 
+        //
 }
 
 void ProductB1::eat() {
-        cout << "use Product B1" << endl;
+    std::cout << "use Product B1" << std::endl;
 }

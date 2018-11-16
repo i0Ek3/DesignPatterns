@@ -1,9 +1,5 @@
-class ProductA2
-{
-        ProductA2();
-        virtual ~ProductA2();
-        void use();
-};
+#include "ProductA2.h"
+#include <iostream>
 
 ProductA2::ProductA2() {
         // 
@@ -14,5 +10,6 @@ ProductA2::~ProductA2() {
 }
 
 void ProductA2::use() {
-        cout << "use Product A2" << endl;
+    std::cout << "use Product A2" << std::endl;
 }
+

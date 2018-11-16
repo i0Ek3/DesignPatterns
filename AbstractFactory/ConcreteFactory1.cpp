@@ -1,16 +1,21 @@
-class ConcreteFactory1
-{
-public:
-        ConcreteFactory1();
-        virtual ~ConcreteFactory1();
-        virtual AbstractProductA * createProductA();
-        virtual AbstractProductB * createProductB();
-};
+#include "ConcreteFactory1.h"
+#include "ProductA1.h"
+#include "ProductB1.h"
 
 ConcreteFactory1::ConcreteFactory1() {
-        // 
+            // 
+            //
 }
 
 ConcreteFactory1::~ConcreteFactory1() {
-        // 
+            // 
+            //
+}
+
+AbstractProductA * ConcreteFactory1::createProductA() {
+    return new ProductA1();
+}
+
+AbstractProductB * ConcreteFactory1::createProductB() {
+    return new ProductB1();
 }
