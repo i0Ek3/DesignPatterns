@@ -116,6 +116,11 @@ Defines a one-to-many dependency between objects, so that whenever an object's s
 
 Allow an object to change its behavior when its internal state changes.
 
+### Strategy
+
+Define a series of algorithms that encapsulate each algorithm and allow them to be replaced.
+
+
 
 
 ## Relationship
