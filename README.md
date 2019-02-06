@@ -1,5 +1,7 @@
 # DesignPatterns
 
+> Before you start learning, make sure you are familiar with the object-oriented concepts in C++, otherwise please visit [here](https://segmentfault.com/a/1190000002868033) first.
+
 You have to know something about design patterns.
 
 > Note: The source code based on C++ and the class diagram in [/class](https://github.com/i0Ek3/DesignPatterns/tree/master/class?1539571778256) from *Graphic Design Patterns*.  
@@ -12,6 +14,7 @@ You have to know something about design patterns.
 
 * [Creational](#creational)
 
+    * [Simple Factory](#simple-factory)
     * [Factory Method](#factory-method)
     * [Abstract Factory](#abstract-factory)
     * [Builder](#builder)
@@ -48,6 +51,14 @@ You have to know something about design patterns.
 
 These design patterns provide a way to hide the creation logic while creating the object, rather than instantiating the object directly with the new operator. This makes the program more flexible in determining which objects need to be created for a given instance.
 
+创建型模式，讲的就是如何**创建对**象的。
+
+## Simple Factory
+
+In this pattern, you can return instances of different classes depending on the parameters.
+
+直白一点讲，简单工厂模式就是给你一个现成的东西，省去你制作它的细节。
+
 ### Factory Method
 
 In this pattern, the factory parent class is responsible for defining the public interface for creating product objects, while the factory subclass is responsible for generating specific product objects.
@@ -69,6 +80,8 @@ The singleton pattern ensures that a class has only one instance and instantiate
 ## Structural
 
 These design patterns focus on the combination of classes and objects. The concept of inheritance is used to combine interfaces and define ways in which composite objects get new functionality.
+
+而结构型模式的重点在于对象的组合，即实体之间是如何相互调用的。
 
 ### Adapter
 
@@ -99,6 +112,8 @@ Provide an agent to an object, and the proxy object controls the reference to th
 ## Behavioral
 
 These design patterns pay special attention to communication between objects.
+
+行为型模式则关注对象间的责任分配，即软件组件之间的行为是如何运转的。
 
 ### Command
 
@@ -135,5 +150,4 @@ Here is a relationship between design patterns, take it look.
 - GOF（设计模式：可复用面向对象软件的基础）
 - [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
 - [https://github.com/kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
-- [https://www.runoob.com/design-pattern/design-pattern-tutorial.html](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
-
+- [@pezy](https://pushmind.org/2017/07/31/design-patterns-for-humans/)
