@@ -63,9 +63,13 @@ In this pattern, you can return instances of different classes depending on the 
 
 In this pattern, the factory parent class is responsible for defining the public interface for creating product objects, while the factory subclass is responsible for generating specific product objects.
 
+做不同的事，不同的人有明确的分工。即将实例化逻辑委托给子类的一种方法。
+
 ### Abstract Factory
 
 Provides an interface to create a series of related or interdependent objects without specifying their specific classes.
+
+相当于一个总的工厂，下面有很多分公司子公司，而这些分公司子公司还有依赖关系，而不关心各自的细节问题。
 
 ### Builder
 
