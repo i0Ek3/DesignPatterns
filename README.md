@@ -19,28 +19,28 @@ You have to know something about design patterns.
     * [Prototype 原型](#prototype-原型) 
     * [Singleton 单例](#Singleton-单例) 
 
-* [Structural](#structural) 结构型
+* [Structural 结构型](#structural-结构型) 
 
-    * [Adapter](#adapter) 适配器
-    * [Bridge](#bridge) 桥接
-    * [Composite](#composite) 组成
-    * [Decorator](#decorator) 装饰者
-    * [Facade](#facade) 外观
-    * [Flyweight](#flyweight) 享元
-    * [Proxy](#proxy) 代理
+    * [Adapter 适配器](#adapter-适配器) 
+    * [Bridge 桥接](#bridge-桥接) 
+    * [Composite 组成](#composite-组成) 
+    * [Decorator 装饰者](#decorator-装饰者) 
+    * [Facade 外观](#facade-外观) 
+    * [Flyweight 享元](#flyweight-享元) 
+    * [Proxy 代理](#proxy-代理) 
 
-* [Behavioral](#behavioral) 行为型
+* [Behavioral 行为型](#behavioral-行为型) 
 
-    * [Chain of Responsibility](#chain-of-responsibility) 责任链
-    * [Command](#command) 命令
-    * [Iterator](#iterator) 迭代器
-    * [Mediator](#mediator) 中介者
-    * [Memento](#memento) 备忘录
-    * [Observer](#observer) 观察者
-    * [Visitor](#visitor) 访问者
-    * [Strategy](#strategy) 策略
-    * [State](#state) 状态
-    * [Template Method](#template-method) 模版方法
+    * [Chain of Responsibility 责任链](#chain-of-responsibility-责任链) 
+    * [Command 命令](#command-命令) 
+    * [Iterator 迭代器](#iterator-迭代器) 
+    * [Mediator 中介者](#mediator-中介者) 
+    * [Memento 备忘录](#memento-备忘录) 
+    * [Observer 观察者](#observer-观察者) 
+    * [Visitor 访问者](#visitor-访问者) 
+    * [Strategy 策略](#strategy-策略) 
+    * [State 状态](#state-状态) 
+    * [Template Method 模版方法](#template-method-模版方法) 
 
 
 
