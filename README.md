@@ -10,14 +10,14 @@ You have to know something about design patterns.
 ## Contents
 
 
-* [Creational](#creational) 创建型
+* [Creational 创建型](#creational-创建型) 
 
-    * [Simple Factory](#simple-factory) 简单工厂
-    * [Factory Method](#factory-method) 工厂方法
-    * [Abstract Factory](#abstract-factory) 抽象工厂
-    * [Builder](#builder) 生成器
-    * [Prototype](#prototype) 原型
-    * [Singleton](#Singleton) 单例
+    * [Simple Factory 简单工厂](#simple-factory-简单工厂) 
+    * [Factory Method 工厂方法](#factory-method-工厂方法) 
+    * [Abstract Factory 抽象工厂](#abstract-factory-抽象工厂) 
+    * [Builder 生成器](#builder-生成器) 
+    * [Prototype 原型](#prototype-原型) 
+    * [Singleton 单例](#Singleton-单例) 
 
 * [Structural](#structural) 结构型
 
