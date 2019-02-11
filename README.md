@@ -74,9 +74,17 @@ Separating the construction of a complex object from its representation allows t
 
 适用于创建不同类型的对象，同时可避免构造器污染。其本质就是将构造函数中的参数列表方法化。
 
+### Prototype 原型
+
+It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
+
+原型模式允许你拷贝一份已有的对象，并根据你自己的需求改造，从而省去创建的过程。也可以理解为克隆，或者在创建过程比克隆更复杂的情形下使用。
+
 ### Singleton 单例
 
 The singleton pattern ensures that a class has only one instance and instantiates itself and provides this instance to the entire system.
+
+确保一个特定类型的对象只能创建一次。但由于其本质类似于全局变量，可能会造成耦合度过高的问题，故应该慎用。
 
 
 
@@ -84,7 +92,7 @@ The singleton pattern ensures that a class has only one instance and instantiate
 
 These design patterns focus on the combination of classes and objects. The concept of inheritance is used to combine interfaces and define ways in which composite objects get new functionality.
 
-而结构型模式的重点在于对象的组合，即实体之间是如何相互调用的。
+结构型模式的重点在于对象的组合，即实体之间是如何相互调用的。
 
 ### Adapter 适配器
 
@@ -93,6 +101,8 @@ Convert an interface to another interface that the client wants, and makes those
 ### Bridge 桥接
 
 Separate the abstract part from its implementation so that they can all change independently.
+
+### Composite 组成
 
 ### Decorator 装饰者
 
@@ -129,6 +139,8 @@ Encapsulating a request as an object allows us to parameterize the client with d
 ### Mediator 中介者
 
 A mediation object is used to encapsulate a series of object interactions. The mediator does not need to explicitly refer to each other, making the coupling loose, and can change the interaction between them independently.
+
+### Memento 备忘录
 
 ### Observer 观察者
 
