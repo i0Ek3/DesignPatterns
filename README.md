@@ -98,6 +98,8 @@ These design patterns focus on the combination of classes and objects. The conce
 
 Convert an interface to another interface that the client wants, and makes those classes that are not compatible with the interface work together.
 
+即包装一个对象，使得该对象兼容其他类。
+
 ### Bridge 桥接
 
 Separate the abstract part from its implementation so that they can all change independently.
