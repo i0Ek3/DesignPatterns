@@ -104,6 +104,8 @@ Convert an interface to another interface that the client wants, and makes those
 
 Separate the abstract part from its implementation so that they can all change independently.
 
+桥接模式优先考虑组合而非继承，即将实现细节从层次结构中剥离并独立出来，形成另一套层次结构可供其他类使用。
+
 ### Composite 组成
 
 ### Decorator 装饰者
