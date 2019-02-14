@@ -108,6 +108,10 @@ Separate the abstract part from its implementation so that they can all change i
 
 ### Composite 组成
 
+The composite pattern describes that a group of objects is to be treated in the same way as a single instance of an object.
+
+组成模式让客户以统一的方式对待各个独立的对象。
+
 ### Decorator 装饰者
 
 Dynamically add some additional responsibilities to an object.
