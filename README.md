@@ -24,7 +24,7 @@ You have to know something about design patterns.
     * [Adapter 适配器](#adapter-适配器) 
     * [Bridge 桥接](#bridge-桥接) 
     * [Composite 组成](#composite-组成) 
-    * [Decorator 装饰者](#decorator-装饰者) 
+    * [Decorator 装饰](#decorator-装饰) 
     * [Facade 外观](#facade-外观) 
     * [Flyweight 享元](#flyweight-享元) 
     * [Proxy 代理](#proxy-代理) 
@@ -112,9 +112,11 @@ The composite pattern describes that a group of objects is to be treated in the 
 
 组成模式让客户以统一的方式对待各个独立的对象。
 
-### Decorator 装饰者
+### Decorator 装饰
 
 Dynamically add some additional responsibilities to an object.
+
+装饰模式将对象包装在装饰类对象中，从而在运行时动态改变该对象的行为。
 
 ### Facade 外观
 
