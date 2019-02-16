@@ -122,13 +122,19 @@ Dynamically add some additional responsibilities to an object.
 
 External communication with a subsystem must be done through a uniform look and feel object, providing a consistent interface for a set of interfaces in the subsystem.
 
+外观模式为复杂的子系统提供了一个简单的接口，而不需要你关注子系统的具体实现。
+
 ### Flyweight 享元
 
 Use sharing technology to support the reuse of a large number of fine-grained objects effectively. 
 
+享元模式的特点是共享，也可以理解为缓存，即尽量以最小的资源或成本来服务更多的对象。
+
 ### Proxy 代理
 
 Provide an agent to an object, and the proxy object controls the reference to the original object.
+
+所谓代理模式，实际上就是在原本的系统上附加了其他功能，即让一个类表现出其他类的功能。
 
 
 
@@ -182,4 +188,4 @@ Here is a relationship between design patterns, take it look.
 - GOF（设计模式：可复用面向对象软件的基础）
 - [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
 - [https://github.com/kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
-- [@pezy](https://pushmind.org/2017/07/31/design-patterns-for-humans/)
+- [[@pezy](https://github.com/pezy/DesignPatterns)](https://pushmind.org/2017/07/31/design-patterns-for-humans/)

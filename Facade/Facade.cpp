@@ -1,20 +1,35 @@
-#include "Facade.h"
+#include <iostream>
 
+class Computer { // 子系统的实现
+public:
+    void GetElectric() {}
+    void GetSound() {}
+    void GetShow() {}
+    void GetOff() {}
+    void GetSleep() {}
+};
 
-Facade::Facade() {
-        m_SystemA = new SystemA();
-        m_SystemB = new SystemB();
-        m_SystemC = new SystemC();
-}
+class ComputerFacade { // 外观模式封装了子系统的各种接口，方便使用而不需要知道他们是怎么实现的
+public:
+    ComputerFacade(Computer& c) : _c(c) {}
+    void TurnOn() {
+        _c.GetElectric();
+        _c.GetSound();
+        _c.GetShow();
+    }
+    void TurnOff() {
+        _c.GetOff();
+        _c.GetSleep();
+    }
 
-Facade::~Facade() {
-        delete m_SystemA;
-        delete m_SystemB;
-        delete m_SystemC;
-}
+private:
+    Computer& _c;
+};
 
-void Facade::wrapOperation() {
-        m_SystemA->operationA();
-        m_SystemB->operationB();
-        m_SystemC->operationC();
+int main()
+{
+    Computer com;
+    ComputerFacade c(com);
+    c.TurnOn();
+    c.TurnOff();
 }
