@@ -142,7 +142,7 @@ Provide an agent to an object, and the proxy object controls the reference to th
 
 These design patterns pay special attention to communication between objects.
 
-行为型模式关注对象间的责任分配，即软件组件之间的行为是如何运转的。
+行为型模式关注对象间的责任分配，即软件组件之间的行为是如何运转的。与结构型模式的不同之处在于，它们不仅指定结构，还概述了结构之间消息传递和通讯的模式。
 
 ### Chain of Responsibility 责任链
 
@@ -153,6 +153,8 @@ The chain-of-responsibility pattern is a design pattern consisting of a source o
 ### Command 命令
 
 Encapsulating a request as an object allows us to parameterize the client with different requests, and queue requests or log request logs, and support revocable operations.
+
+命令模式允许你将操作封装在对象中，其核心思想是分离客户与接收者。
 
 ### Iterator 迭代器
 
