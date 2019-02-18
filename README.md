@@ -178,6 +178,8 @@ The memento pattern is a software design pattern that provides the ability to re
 
 Defines a one-to-many dependency between objects, so that whenever an object's state changes, its associated dependent objects are notified and automatically updated.
 
+观察者模式简单来说就是一种通知模式，即定义了对象之间的依赖关系，当一个对象的状态改变时，依赖它的对象都会得到通知，其核心是注入/回调。
+
 ### Visitor 访问者
 
 ### Strategy 策略
