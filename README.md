@@ -158,6 +158,10 @@ Encapsulating a request as an object allows us to parameterize the client with d
 
 ### Iterator 迭代器
 
+The iterator pattern is a design pattern in which an iterator is used to traverse a container and access the container’s elements.
+
+迭代器模式提供了一个接口供对象使用，你无需知道底层方法，其本质就是迭代。
+
 ### Mediator 中介者
 
 A mediation object is used to encapsulate a series of object interactions. The mediator does not need to explicitly refer to each other, making the coupling loose, and can change the interaction between them independently.
