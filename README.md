@@ -170,6 +170,10 @@ A mediation object is used to encapsulate a series of object interactions. The m
 
 ### Memento 备忘录
 
+The memento pattern is a software design pattern that provides the ability to restore an object to its previous state.
+
+备忘录模式相当于一种快照，抓取并保存当前状态以便恢复使用。
+
 ### Observer 观察者
 
 Defines a one-to-many dependency between objects, so that whenever an object's state changes, its associated dependent objects are notified and automatically updated.
@@ -200,4 +204,4 @@ Here is a relationship between design patterns, take it look.
 - GOF（设计模式：可复用面向对象软件的基础）
 - [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
 - [https://github.com/kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
-- [[@pezy](https://github.com/pezy/DesignPatterns)](https://pushmind.org/2017/07/31/design-patterns-for-humans/)
+- [pezy](https://pushmind.org/2017/07/31/design-patterns-for-humans/)
