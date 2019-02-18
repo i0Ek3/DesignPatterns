@@ -166,6 +166,8 @@ The iterator pattern is a design pattern in which an iterator is used to travers
 
 A mediation object is used to encapsulate a series of object interactions. The mediator does not need to explicitly refer to each other, making the coupling loose, and can change the interaction between them independently.
 
+中介者模式正如其名，增加了一个第三方对象来控制两个对象之间的交互。
+
 ### Memento 备忘录
 
 ### Observer 观察者
