@@ -210,7 +210,7 @@ Here is a relationship between design patterns, take it look.
 ![Relationship](https://github.com/i0Ek3/DesignPatterns/blob/master/images/the-relationship-between-design-patterns.png)
 
 
-## Eplog 小结
+## Epilog 小结
 
 首先，总算断断续续的完成了。其次，该项目第一遍我参考图说设计模式完成的，可能还残缺了很多，当时只是心血来潮。第二遍我主要参照 pezy 的笔记进行学习的，参照重写了所有的之前按照类图写的冗长代码，这回也很好理解了。
 
