@@ -36,6 +36,7 @@ You have to know something about design patterns. 关于设计模式，你必须
     * [State 状态](#state-状态) 
     * [Template Method 模板方法](#template-method-模板方法) 
 * [Relationship 关系图](#relationship-关系图)
+* [Epolog 小结](#epilog-小结)
 * [Reference](#reference)
 
 
@@ -207,6 +208,15 @@ The template method pattern is a behavioral design pattern that defines the prog
 Here is a relationship between design patterns, take it look.
 
 ![Relationship](https://github.com/i0Ek3/DesignPatterns/blob/master/images/the-relationship-between-design-patterns.png)
+
+
+## Eplog 小结
+
+首先，总算断断续续的完成了。其次，该项目第一遍我参考图说设计模式完成的，可能还残缺了很多，当时只是心血来潮。第二遍我主要参照 pezy 的笔记进行学习的，参照重写了所有的之前按照类图写的冗长代码，这回也很好理解了。
+
+尽管这是我第二次学习设计模式，但第一次的学习过程实在糟糕，只知道有这些东西，完全不懂做什么用，学习过程也是走马观花，依葫芦画瓢。这次就好很多了，至少知道了很多设计模式具体是做什么的和如何使用，但还有些没有完全理解，需要继续实践应用。
+
+总之，感谢 pezy 的笔记和 kamranahmedse 的过万 star 项目，也感谢自己。希望大家学习愉快，这只是个开始，一切都只是刚开始而已！
 
 
 ## Reference
