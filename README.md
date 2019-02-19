@@ -36,7 +36,7 @@ You have to know something about design patterns. 关于设计模式，你必须
     * [State 状态](#state-状态) 
     * [Template Method 模板方法](#template-method-模板方法) 
 * [Relationship 关系图](#relationship-关系图)
-* [Epolog 小结](#epilog-小结)
+* [Epilog 小结](#epilog-小结)
 * [Reference](#reference)
 
 
