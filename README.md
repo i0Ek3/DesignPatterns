@@ -9,18 +9,14 @@ You have to know something about design patterns. 关于设计模式，你必须
 
 ## Contents
 
-
 * [Creational 创建型](#creational-创建型) 
-
     * [Simple Factory 简单工厂](#simple-factory-简单工厂) 
     * [Factory Method 工厂方法](#factory-method-工厂方法) 
     * [Abstract Factory 抽象工厂](#abstract-factory-抽象工厂) 
     * [Builder 生成器](#builder-生成器) 
     * [Prototype 原型](#prototype-原型) 
     * [Singleton 单例](#Singleton-单例) 
-
 * [Structural 结构型](#structural-结构型) 
-
     * [Adapter 适配器](#adapter-适配器) 
     * [Bridge 桥接](#bridge-桥接) 
     * [Composite 组成](#composite-组成) 
@@ -28,9 +24,7 @@ You have to know something about design patterns. 关于设计模式，你必须
     * [Facade 外观](#facade-外观) 
     * [Flyweight 享元](#flyweight-享元) 
     * [Proxy 代理](#proxy-代理) 
-
 * [Behavioral 行为型](#behavioral-行为型) 
-
     * [Chain of Responsibility 责任链](#chain-of-responsibility-责任链) 
     * [Command 命令](#command-命令) 
     * [Iterator 迭代器](#iterator-迭代器) 
@@ -40,8 +34,7 @@ You have to know something about design patterns. 关于设计模式，你必须
     * [Visitor 访问者](#visitor-访问者) 
     * [Strategy 策略](#strategy-策略) 
     * [State 状态](#state-状态) 
-    * [Template Method 模版方法](#template-method-模版方法) 
-
+    * [Template Method 模板方法](#template-method-模板方法) 
 * [Relationship 关系图](#relationship-关系图)
 * [Reference](#reference)
 
@@ -201,9 +194,11 @@ Allow an object to change its behavior when its internal state changes.
 
 状态模式即允许你在状态改变的同时，也改变类的行为。
 
-### Template Method 模版方法
+### Template Method 模板方法
 
+The template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses.
 
+模板方法模式相当于一种框架，即按规定好的流程来执行某一流程，具体实现交给子类。
 
 
 
