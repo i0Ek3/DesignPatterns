@@ -193,7 +193,7 @@ The visitor design pattern is a way of separating an algorithm from an object st
 
 Define a series of algorithms that encapsulate each algorithm and allow them to be replaced.
 
-
+所谓策略模式，就是允许你根据不同的情况使用对应的方法。
 
 ### State 状态
 
