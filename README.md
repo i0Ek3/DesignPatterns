@@ -2,7 +2,7 @@
 
 > **Note**: Before you start learning, make sure you are familiar with the object-oriented concepts in C++, otherwise please visit [here](https://segmentfault.com/a/1190000002868033) first.
 
-You have to know something about design patterns.
+You have to know something about design patterns. 关于设计模式，你必须要知道的一些事情。
 
 ![DesignPatterns](https://github.com/i0Ek3/DesignPatterns/blob/master/images/DesignPatterns.png)
 
@@ -41,6 +41,9 @@ You have to know something about design patterns.
     * [Strategy 策略](#strategy-策略) 
     * [State 状态](#state-状态) 
     * [Template Method 模版方法](#template-method-模版方法) 
+
+* [Relationship 关系图](#relationship-关系图)
+* [Reference](#reference)
 
 
 
@@ -182,19 +185,29 @@ Defines a one-to-many dependency between objects, so that whenever an object's s
 
 ### Visitor 访问者
 
+The visitor design pattern is a way of separating an algorithm from an object structure on which it operates.
+
+访问者模式允许你为对象们增加额外的操作，而不需要修改它们本身。其核心思想是对调用的一种抽象，依靠回调来实现。
+
 ### Strategy 策略
 
 Define a series of algorithms that encapsulate each algorithm and allow them to be replaced.
+
+
 
 ### State 状态
 
 Allow an object to change its behavior when its internal state changes.
 
+
+
 ### Template Method 模版方法
 
 
 
-## Relationship
+
+
+## Relationship 关系图
 
 Here is a relationship between design patterns, take it look.
 
