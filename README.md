@@ -199,7 +199,7 @@ Define a series of algorithms that encapsulate each algorithm and allow them to 
 
 Allow an object to change its behavior when its internal state changes.
 
-
+状态模式即允许你在状态改变的同时，也改变类的行为。
 
 ### Template Method 模版方法
 
